@@ -1,10 +1,10 @@
 import React from 'react';
-import Contact from './components/Contact';
+import ContactList from './components/ContactList';
 
-function App({props}) {
+function App() {
   return (
     <div className="App">
-        <Contact className="Contact"
+        {/* <Contact className="Contact"
           avatar="https://randomuser.me/api/portraits/women/10.jpg"
           name="Kim Mendoza"
           isOnline
@@ -17,7 +17,8 @@ function App({props}) {
           avatar="https://randomuser.me/api/portraits/men/63.jpg"
           name="Gavin Weaver"
           isOnline
-        />   
+        /> */}
+        <ContactList />  
     </div>
   );
 }
